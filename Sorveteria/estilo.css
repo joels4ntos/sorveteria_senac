@@ -1,0 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62,5 rem;
+}
+
+/* barra e navegação*/
+
+header {
+    background: #F1F1F1;
+}
+
+#navbar {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.menu-list {
+    display: inline;
+}
