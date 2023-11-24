@@ -31,7 +31,7 @@
                     <li class="menu-item">Sobre</li>
                     <li class="menu-item">Sabores</li>
                     <li class="menu-item">Contato</li>
-                    <li class="menu-item">
+                    <li class="menu-item" style="border-bottom: none;">
                         <button class="Button-orcamento"><a href="#">Orçamento</a></button>
                     </li>
                 </ul>
@@ -85,18 +85,19 @@
             <h1 class="titulo-forms">Peça já um orçamento</h1>
             <div class="forms">
                 <form action="">
-                    <label for="nome">Nome</label>
+                    <label for="nome">Nome</label><br>
                     <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
-
-                    <label for="email">E-mail</label>
+                    <br>
+                    <label for="email">E-mail</label><br>
                     <input type="email" id="email" name="email" placeholder="e-mail" required>
-
-                    <label for="numero">Telefone</label>
+                    <br>
+                    <label for="numero">Telefone</label><br>
                     <input type="number" id="numero" name="numero" placeholder="Telefone" required>
-
+                    <br>
+                    <label for="assunto">Assunto:</label><br>
                     <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-                    <label for="assunto">Assunto:</label>
-
+                    
+                    <br>
                     <button class="button-forms" type="submit">ENVIAR</button>
                 </form>
             </div>
