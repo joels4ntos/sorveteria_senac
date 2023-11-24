@@ -5,10 +5,15 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+
 }
 
 html {
     font-size: 62,5 rem;
+}
+
+.sobre, .sabores, #orcamento, .banner {
+    visibility: hidden;
 }
 
 /* barra e navegação*/
@@ -54,6 +59,7 @@ header {
     font-style: normal;
     font-weight: 500;
     cursor: pointer;
+    transition: 1s ease-in-out;
 }
 
 .Button-orcamento {
@@ -175,7 +181,7 @@ header {
 
 /*Sessão orçamento*/
 
-.orcamento {
+#orcamento {
     width: 100vw;
     height: 50%;
     background: #FFB800;
@@ -183,14 +189,14 @@ header {
     padding-bottom: 2rem;
 }
 
-.orcamento .box-forms {
+#orcamento .box-forms {
     display: flex;
     width: 85%;
     justify-content: space-between;
     margin: 0 auto;
 }
 
-.orcamento .box-forms .titulo-forms {
+#orcamento .box-forms .titulo-forms {
     font-family: Agbalumo;
     font-size: 4rem;
     color: #B230AE;
@@ -201,18 +207,18 @@ header {
     padding-top: 2rem;
 }
 
-.orcamento .box-forms .forms {
+#orcamento .box-forms .forms {
     width: 50%;
     height: auto;
     
 }
 
-.orcamento .box-forms .forms form {
+#orcamento .box-forms .forms form {
     display: inline-block;
     width: 100%;
 }
 
-.orcamento .box-forms .forms form input {
+#orcamento .box-forms .forms form input {
     width: 100%;
     height: 3rem;
     padding-left: 1rem;
@@ -222,7 +228,7 @@ header {
     margin-bottom: 1rem;
 }
 
-.orcamento .box-forms .forms form label {
+#orcamento .box-forms .forms form label {
     font-family: Montserrat;
     font-size: 1.3rem;
     font-style: normal;
@@ -230,7 +236,7 @@ header {
     color: #000;
 }
 
-.orcamento .box-forms .forms form  textarea {
+#orcamento .box-forms .forms form  textarea {
     width: 100%;
     border: none;
     border-radius: 7px;
@@ -238,7 +244,7 @@ header {
     
 }
 
-.orcamento .box-forms .forms form .button-forms {
+#orcamento .box-forms .forms form .button-forms {
     padding: 11px 98px;
     border-radius: 50px;
     background: #7570FA;
@@ -252,7 +258,7 @@ header {
     font-weight: 500;
 }
 
-.orcamento .box-forms .forms form .button-forms:hover {
+#orcamento .box-forms .forms form .button-forms:hover {
     background-color: #5753d3;
 }
 
@@ -280,4 +286,25 @@ footer .content-footer .social-midia li {
 footer .content-footer .social-midia li:hover {
     border-bottom: 4px solid #B230AE;
     cursor: pointer;
+}
+
+footer .content-footer p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+/*Botão de retorno top*/
+
+.retorn-top img {
+    width: 3rem;
+}
+
+.retorn-top {
+    position: absolute;
+    right: 16px;
+    cursor: pointer;
+    margin-top: 1rem;
+    
 }
