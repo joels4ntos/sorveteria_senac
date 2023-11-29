@@ -12,7 +12,7 @@ html {
     font-size: 62,5 rem;
 }
 
-.sobre, .sabores, #orcamento, .banner {
+#sobre, .sabores, #orcamento, .banner {
     visibility: hidden;
 }
 
