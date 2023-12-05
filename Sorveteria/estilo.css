@@ -124,7 +124,7 @@ header {
 #sobre .container .content .titulo-sobre {
     font-family: Agbalumo;
     font-size: 4rem;
-    color: #B230AE;
+    color: #0011ad;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -352,3 +352,4 @@ footer .content-footer p {
     display: block;
     justify-content: center;
 }
+
